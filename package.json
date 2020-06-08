@@ -1,0 +1,30 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node src/index",
+    "debug": "ts-node-dev --inspect -- src/index",
+    "test": "jest",
+    "build": "tsc -p tsconfig.build.json"
+  },
+  "dependencies": {
+    "@types/bcrypt": "^3.0.0",
+    "@types/dotenv": "^8.2.0",
+    "@types/knex": "^0.16.1",
+    "bcrypt": "^4.0.1",
+    "dotenv": "^8.2.0",
+    "knex": "^0.21.1",
+    "mysql2": "^2.1.0",
+    "plumier": "^1.0.0-rc.1",
+    "stripe": "^8.56.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.9.1",
+    "@types/supertest": "^2.0.8",
+    "jest": "^25.1.0",
+    "supertest": "^4.0.2",
+    "ts-jest": "^25.0.0",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.7.5"
+  }
+}
